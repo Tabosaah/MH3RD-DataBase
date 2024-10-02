@@ -1,12 +1,113 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Minha Página no GitHub</title>
+    <title>Monster Hunter 3rd Database</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .hidden {
+            display: none; /* Oculta as seções */
+        }
+    </style>
 </head>
 <body>
-    <h1>Bem-vindo à minha página!</h1>
-    <p>Este é o meu site hospedado no GitHub Pages.</p>
+    <header>
+        <h1>Monster Hunter 3rd Database</h1>
+    </header>
+    <nav>
+        <a href="#monsters" class="hidden">Monsters</a>
+        <a href="#weapons" class="hidden">Weapons</a>
+        <a href="#armor" class="hidden">Armor</a>
+        <a href="#quests" class="hidden">Quests</a>
+        <a href="#items" class="hidden">Items</a>
+        <a href="#palicos" class="hidden">Palicos</a>
+        <a href="#combining" class="hidden">Combining</a>
+        <a href="#locations" class="hidden">Locations</a>
+        <a href="#decorations" class="hidden">Decorations</a>
+        <a href="#skills" class="hidden">Skills</a>
+        <a href="#armor-set-builder" class="hidden">Armor Set Builder</a>
+        <a href="#wishlists" class="hidden">Wishlists</a>
+    </nav>
+    <main>
+        <section id="monsters">
+            <h2>Monsters</h2>
+            <p>Informações sobre os monstros do jogo.</p>
+        </section>
+        <section id="weapons">
+            <h2>Weapons</h2>
+            <p>Detalhes sobre as armas disponíveis.</p>
+        </section>
+        <section id="armor">
+            <h2>Armor</h2>
+            <p>Descrição das armaduras no jogo.</p>
+        </section>
+        <section id="quests">
+            <h2>Quests</h2>
+            <p>Lista de missões e suas descrições.</p>
+        </section>
+        <section id="items">
+            <h2>Items</h2>
+            <p>Itens e suas utilizações.</p>
+        </section>
+        <section id="palicos">
+            <h2>Palicos</h2>
+            <p>Informações sobre os Palicos e suas funções.</p>
+        </section>
+        <section id="combining">
+            <h2>Combining</h2>
+            <p>Como combinar itens no jogo.</p>
+        </section>
+        <section id="locations">
+            <h2>Locations</h2>
+            <p>Locais onde as missões ocorrem.</p>
+        </section>
+        <section id="decorations">
+            <h2>Decorations</h2>
+            <p>Decorações e como usá-las.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <p>Habilidades disponíveis e suas descrições.</p>
+        </section>
+        <section id="armor-set-builder">
+            <h2>Armor Set Builder</h2>
+            <p>Ferramenta para montar conjuntos de armadura.</p>
+        </section>
+        <section id="wishlists">
+            <h2>Wishlists</h2>
+            <p>Lista de desejos e itens a serem coletados.</p>
+        </section>
+    </main>
 </body>
 </html>
