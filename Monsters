@@ -17,16 +17,22 @@
             padding: 10px 20px;
             text-align: center;
         }
+        nav {
+            margin: 20px 0;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
         main {
             padding: 20px;
-            display: flex;
-            flex-direction: column; /* Mantém a coluna */
-            align-items: flex-start; /* Alinha à esquerda */
         }
         .monster {
             display: flex;
             align-items: center;
-            margin: 10px 0; /* Espaço entre as linhas */
+            margin: 10px 0;
         }
         .box {
             width: 80px;
@@ -39,7 +45,7 @@
             font-size: 20px;
             border-radius: 5px;
             box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-            margin-right: 10px; /* Espaço entre a caixa e o nome */
+            margin-right: 10px;
         }
     </style>
 </head>
@@ -47,8 +53,10 @@
     <header>
         <h1>Monsters</h1>
     </header>
+    <nav>
+        <a href="index.html">Página Inicial</a>
+    </nav>
     <main>
-        <!-- Caixas com nomes dos monstros em ordem alfabética -->
         <div class="monster">
             <div class="box">#1</div>
             <span>Altaroth</span>
@@ -57,6 +65,11 @@
             <div class="box">#2</div>
             <span>Anteka</span>
         </div>
+        <!-- Continue listando os monstros -->
+    </main>
+</body>
+</html>
+
         <div class="monster">
             <div class="box">#3</div>
             <span>Aptonoth</span>
